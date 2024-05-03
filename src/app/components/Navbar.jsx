@@ -11,6 +11,10 @@ const navLinks = [
       path: "#about",
     },
     {
+      title: "Experiance",
+      path: "#experiance",
+    },
+    {
       title: "Projects",
       path: "#projects",
     },
@@ -48,7 +52,7 @@ const Navbar = () => {
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <NavLink href={link.path} title={link.title} />
-                            </li>
+                        </li>
                     ))}
                 </ul>
             </div>

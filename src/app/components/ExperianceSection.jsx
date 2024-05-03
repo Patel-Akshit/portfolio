@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const ExperianceSection = () => {
   return (
-    <section className="text-white" id="about">
-        <h2 className="text-5xl font-bold text-white mb-4">My Experiance</h2>
+    <section className="text-white" id="experiance">
+        <h2 className="text-center text-4xl font-bold text-white mb-4">My Experiance</h2>
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
             <Image src="/images/marine.jpg" width={500} height={500} />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
