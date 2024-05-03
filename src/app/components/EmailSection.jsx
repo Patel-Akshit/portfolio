@@ -34,7 +34,7 @@ const EmailSection = () => {
         const resData = await response.json();
     
         if (response.status === 200) {
-          console.log("Message sent.");
+          console.log("Message sent successfully.");
           setEmailSubmitted(true);
         }
     };
@@ -63,7 +63,7 @@ const EmailSection = () => {
         <div>
             {emailSubmitted ? (
             <p className="text-green-500 text-sm mt-2">
-                Email sent successfully!
+                Your email was sent successfully! I will follow back as soon as possible.
             </p>
             ) : (
                 <form className="flex flex-col" onSubmit={handleSubmit}>
@@ -77,7 +77,7 @@ const EmailSection = () => {
                             id="email"
                             required
                             className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                            placeholder="john@google.com"
+                            placeholder="john@mail.com"
                         />
                     </div>
                     <div className="mb-6">
