@@ -69,6 +69,30 @@ const projectsData = [
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Patel-Akshit/Java-Projects/tree/main/FoodVerse",
     },
+    {
+      id: 9,
+      title: "Sales and Customer Dashboards",
+      description: "Two Tableau dashboards to analyze sales and customer data for the United States, covering the years 2021 to 2023.",
+      image: "/images/projects/SaleCustDashboard.png",
+      tag: ["All", "Data Analysis"],
+      gitUrl: "https://github.com/Patel-Akshit/Tableau-Projects/tree/main/Sales_and_Customer_Dashboards",
+    },
+    {
+      id: 10,
+      title: "Electric Vehicle Analysis Dashboard",
+      description: "A Tableau analysis dashboards for sales of electronic vehicles of United State from 2010 to 2024 year.",
+      image: "/images/projects/EVDashboard.png",
+      tag: ["All", "Data Analysis"],
+      gitUrl: "https://github.com/Patel-Akshit/Tableau-Projects/tree/main/Electric_Vehicle_Dashboard",
+    },
+    {
+      id: 11,
+      title: "Pizza Sales Dashboard",
+      description: "An interactive sales performance Tableau dashboard to analyze pizza sales trends, best/worst sellers, and revenue insights.",
+      image: "/images/projects/PizzaSales.png",
+      tag: ["All", "Data Analysis"],
+      gitUrl: "https://github.com/Patel-Akshit/Tableau-Projects/tree/main/Pizza_Sales_Report_Dashboard",
+    },
   ];
 
 const ProjectSection = () => {
@@ -111,6 +135,11 @@ const ProjectSection = () => {
             onClick={handleTagChange}
             name="Web"
             isSelected={tag === "Web"}
+          />
+          <ProjectTag
+            onClick={handleTagChange}
+            name="Data Analysis"
+            isSelected={tag === "Data Analysis"}
           />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

@@ -9,11 +9,12 @@ const TAB_DATA = [
       id: "skills",
       content: (
         <ul className="list-disc pl-2">
-          <li>Programming language : Python, Java, and Java Script</li>
-          <li>Data science : Computer vision, Exploratory data analysis, Data annotation, and Deep learning techniques</li>
+          <li>Programming language :  C/C++, Python, Java, and Java Script</li>
+          <li>Data science : Computer vision, Exploratory data analysis, Data annotation, Data visualization and Deep learning techniques</li>
           <li>Web development: Spring Boot framework, Flask framework, and React JS</li>
           <li>Cloud : AWS services (Certified Cloud Practitioner), GCP services, and Azure services</li>
           <li>Libraries : scikit-learn, Pandas, Keras, Numpy, matplotlib, Tensorflow, Seaborn, Plotly, LabelImg, and Tkinter</li>
+          <li>Software : MS Office, PostGres SQL, MySQL, Jira, Git/Bash, Tableau Desktop, Tableau Public.</li>
         </ul>
       ),
     },
