@@ -39,7 +39,7 @@ const HeroSection = () => {
                     Contact Me
                     </Link>
                     <Link
-                    href="https://drive.google.com/file/d/1EmEOX59UrkAsBkwXWocYfDBjdQzouDcK/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1C01d8rq42JPW0vqsCleTl_TfpC1x4BzX/view?usp=sharing"
                     className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-900 to-secondary-500 hover:bg-slate-600 text-white"
                     >
                     Download CV
