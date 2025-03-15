@@ -29,7 +29,7 @@ const ExperianceSection = () => {
             </div>
         </div>
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-            <Image src="/images/shiji.jpg" width={500} height={500} />
+            <Image src="/images/shriji.jpg" width={500} height={500} />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h3 className="text-1xl font-bold text-white mb-4">Data Analyst (Contract) | Shriji Infotech, Surat, India</h3>
                 <p className="text-base lg:text-lg text-justify">
