@@ -28,6 +28,17 @@ const ExperianceSection = () => {
                 </p>
             </div>
         </div>
+        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+            <Image src="/images/shiji.jpg" width={500} height={500} />
+            <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+                <h3 className="text-1xl font-bold text-white mb-4">Data Analyst (Contract) | Shriji Infotech, Surat, India</h3>
+                <p className="text-base lg:text-lg text-justify">
+                    <li>Designed and developed interactive Tableau dashboards for sales, customer behavior, and market trends, delivering actionable insights for business growth while utilizing SQL for data extraction, Tableau for visualization, and Python for data preprocessing and trend analysis.</li>
+                    <li>Developed Sales and Customer Dashboards showcasing a 23% annual increase in sales, profit, and quantity,along with a 10% growth in total orders and a 20% rise in customer base, enabling data-driven decision-making.</li>
+                    <li>Conducted an Electric Vehicle Market Analysis, processing data on 130,000+ vehicles, identifying Tesla's 52% market share, and tracking annual EV growth trends.</li>
+                </p>
+            </div>
+        </div>
     </section>
   )
 }
